@@ -56,7 +56,7 @@ setInterval(()=>{
         delZombie(zombie);
         if (life==0) {
           clearInterval(timer);
-          window.location='win.html'
+          window.location='game-over.html'
         }
     }
 },100)
